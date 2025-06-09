@@ -2,9 +2,9 @@ import { initializeApp } from 'firebase/app';
 
 // Replace these placeholder values with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "your-api-key-here",
-  authDomain: "your-project-id.firebaseapp.com",
-  projectId: "your-project-id",
+  apiKey: "AIzaSyBWUuxJzzGlar9_bO-TnWQSS0YF9oIAhok",
+  authDomain: "instacargram-8e788.firebaseapp.com",
+  projectId: "instacargram-8e788",
   storageBucket: "your-project-id.appspot.com",
   messagingSenderId: "your-sender-id",
   appId: "your-app-id"
