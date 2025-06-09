@@ -47,7 +47,10 @@ const Home: NextPage = () => {
                 ))}
               </div>
             ) : (
-              ''
+              <div className="text-center py-8">
+                <p className="text-gray-500">Welcome to Instagram Clone!</p>
+                <p className="text-sm text-gray-400 mt-2">Sign in to see posts from people you follow.</p>
+              </div>
             )}
           </div>
           {postsLoading ? <LoadingPosts /> : ''}

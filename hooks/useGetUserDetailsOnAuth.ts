@@ -141,7 +141,12 @@ function useGetUserDetailsOnAuth() {
         getUserPosts(user);
         getAllUsersList();
       } else {
-        Router.push('/Login');
+        // Instead of redirecting to login, set userStatus to true for guest access
+        setUserStatus(true);
+        setUserDetails({
+          displayName: 'guest',
+          photoURL: '/default-avatar.png'
+        });
       }
     });
 
