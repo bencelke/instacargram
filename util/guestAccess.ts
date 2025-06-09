@@ -1,7 +1,7 @@
 const guestAccess = () => {
   // Replace with your guest account credentials
-  const email = 'guest@example.com';
-  const password = 'guestpassword123';
+  const email = 'test@gmail.com';
+  const password = 'password123';
 
   return { email, password };
 };
