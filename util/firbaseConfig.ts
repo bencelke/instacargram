@@ -1,12 +1,13 @@
 import { initializeApp } from 'firebase/app';
 
+// Replace these placeholder values with your actual Firebase config
 const firebaseConfig = {
-  apiKey: 'place your FIREBASE config here',
-  authDomain: 'place your FIREBASE config here',
-  projectId: 'place your FIREBASE config here',
-  storageBucket: 'place your FIREBASE config here',
-  messagingSenderId: 'place your FIREBASE config here',
-  appId: 'place your FIREBASE config here',
+  apiKey: "your-api-key-here",
+  authDomain: "your-project-id.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "your-sender-id",
+  appId: "your-app-id"
 };
 
 const app = initializeApp(firebaseConfig);
